@@ -1,4 +1,4 @@
-FROM golang:1.10-alpine as build
+FROM golang:1.20-alpine as build
 
 WORKDIR /go/src/githib.com/marcinbudny/ravendb_exporter
 COPY . ./
